@@ -6,10 +6,10 @@ namespace FubuExample.Web.Configuration
     {
         public FubuExampleRegistry()
         {
+            IncludeDiagnostics(true);
+
             Applies
                 .ToThisAssembly();
-
-
         }
     }
 }
